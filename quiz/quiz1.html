@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Ringkas - Poliban DigiCraft</title>
+</head>
+<body>
+    <center>
+    <header>
+        <h2>Form Pemesanan Ringkas - Poliban DigiCraft &nbsp;&nbsp;&nbsp;<a href="../Kontak.html">kembali ke beranda</a></h2>
+        <hr>
+    </header>
+    </center>
+    <section>
+        <!-- Menampilkan Gambar Mockup (Gunakan gambar yang ada di folder komputer anda)-->
+         <div class="produk" style="display: flex; align-items : center; gap: 20px;">
+         <img src="c:\Users\Lenovo\Web Tech Code\Gambar\fto produk digital.webp" alt="Mockup Desain Landing PAge Agensi" widht="150" height="150">
+         <div class="Deskripsi"
+         <p><b>Image</b></p>
+         <p> 
+            Pemanfaatan teknologi dan media digital untuk menjalankan bisnis serta memperoleh penghasilan melalui penjualan produk digital secara online.
+         </p>
+         </div>
+
+    </section>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #ADD8E6;
+            color: black;
+            padding: 8px;
+            border: 1px solid black;
+        }
+
+        td {
+            background-color: white;
+            color: black;
+            padding: 8px;
+            border: 1px solid black;
+        }
+    </style>
+        <em>Gambar 1: Desain Landing Page Agensi Digital Marketing</em>
+        </p>
+    <section>
+        <table>
+             <th>Package Name</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>DigiStart<br>(Produk digital dasar)</br></td>
+            <td>Rp.25.000</td>
+        </tr>
+        <tr>
+            <td>DigiPro<br>(Produk digital lebih lengkap + beberapa bonus)</br></td>
+            <td>Rp.50.000</td>
+        </tr>
+            <td>DigiMax<br>(Paket lengkap + bonus/template tambahan)</br></td>
+            <td>Rp.75.000</td>
+        </tr>
+        </table>
+        <br>
+        <form action="submit" method="post">
+                <!-- Grub 1: Data Diri Pelanggan -->
+                 <fieldset>
+                    <p><b>Formulir Pemesanan</b></p>
+                    <label for="nama_lengkap">Nama Lengkap:</label>
+                    <input type="text" name="nama_lengkap" id="nama_lengkap"
+                    placeholder="Contoh: Maharani" size="38" required>
+                 <br><br>
+                    <label for="email_pemesan">Email:</label>
+                    <input type="email" name="email_pemesan" id="email_pemesan"
+                    placeholder="nama@domain.com" size="38" required>
+                    <br><br>
+                    <label for="pilih_paket">Pilih Paket</label>
+                    <select name="pilih_paket" id="pilih_paket" required>
+                        <option value="">-- Pilih Paket Jasa --</option>
+                        <option value="Siver">Produk digital dasar(Rp.25.000)</option>
+                        <option value="Gold">Produk digital lebih lengkap + beberapa bonus (Rp.50.000)</option>
+                        <option value="Platinum">Paket lengkap + bonus/template tambahan(Rp.75.000)</option>
+                    </select>
+                    <br><br>
+                    <button type="submit"><b>kirim pemesanan</b></button>
+</body>
+</html>
